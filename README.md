@@ -7,8 +7,10 @@ Este repositorio contiene el proyecto desarrollado en la materia de **Programaci
 ## 🔹 Contenido
 
 - `docker-compose.yml` – Archivo de configuración de Docker Compose.
-- `app_home/` – Carpeta con el código fuente de la aplicación web.
+- `app_home/` – Carpeta con el código fuente de la aplicación web. **Debe existir y contener tu proyecto web.**
 - Otros archivos necesarios para el proyecto.
+
+> ⚠️ Antes de ejecutar, asegúrate de que `app_home/` exista y contenga los archivos de la aplicación web, de lo contrario Nginx no podrá montar el volumen correctamente.
 
 ---
 
@@ -25,3 +27,4 @@ Este repositorio contiene el proyecto desarrollado en la materia de **Programaci
 ```bash
 git clone https://github.com/santysanty/pfo2_web_docker.git
 cd pfo2_web_docker
+
